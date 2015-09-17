@@ -43,7 +43,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 </iframe>
 {% endif %}
 
-<h2>General Information</h2>
+<h2>Informacje ogólne</h2>
 
 <!--
   INTRODUCTION
@@ -75,8 +75,8 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 -->
+<h2>Dla kogo:</h2>
 <p>
-  <strong>Who:</strong>
   The course is aimed at graduate students and other researchers.
   <strong>You don't need to have any previous knowledge of the tools that will
     be presented at the workshop.</strong>
@@ -91,8 +91,8 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   address.
 -->
 {% if page.latlng %}
+<h2>Gdzie:</h2>
 <p>
-  <strong>Where:</strong>
   {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
@@ -106,8 +106,9 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 
   Modify the block below if there are any special requirements.
 -->
+<h1>Wymagania:</h1>
 <p>
-  <strong>Requirements:</strong> Participants must bring a laptop with
+  Participants must bring a laptop with
   a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
   Software Carpentry's
