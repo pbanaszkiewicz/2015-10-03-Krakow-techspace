@@ -93,17 +93,11 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   Warsztaty są skierowane dla osób zajmujących się zawodowo lub
   zainteresowanych nauką oraz przedmiotami inżynieryjnymi. We wszystkich
   tych dziedzinach informatyzacja jest powszechna i znajomość zagadnień
-  związanych z programowaniem jest koniecznością. Warsztaty Software Carpentry
-  nastawione są na ćwiczenia praktyczne, podczas których uczestnicy uczą się jak
-  pracować z linią komend (środowisko Unix), kontrolą wersji (Git i
-  GitHub) oraz poznają podstawy dobrych praktyk programistycznych z użyciem
-  języka Python i baz danych z SQL.
+  związanych z programowaniem jest koniecznością.
+  Podczas warsztatów uczestnicy uczą się jak pracować z linią komend
+  (środowisko Unix), kontrolą wersji (Git i GitHub) oraz poznają podstawy
+  dobrych praktyk programistycznych z użyciem języka Python.
   <strong>Wcześniejsza znajomość narzędzi używanych w trakcie szkolenia nie jest wymagana.</strong>
-</p>
-<p>
-  The course is aimed at graduate students and other researchers.
-  <strong>You don't need to have any previous knowledge of the tools that will
-    be presented at the workshop.</strong>
 </p>
 
 <!--
@@ -118,10 +112,10 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 <h2>Gdzie</h2>
 <p>
   {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  Sprawdź dojazd za pomocą
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16" target="_blank">OpenStreetMap</a>,
+  <a href="//maps.google.com/maps?q={{page.latlng}}" target="_blank">Google Maps</a> lub
+  <a href="//krakow.jakdojade.pl/?tn=Wycz%C3%B3%C5%82kowskiego%207" target="_blank">jakdojade.pl</a>.
 </p>
 {% endif %}
 
@@ -132,11 +126,10 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 -->
 <h2>Wymagania</h2>
 <p>
-  Participants must bring a laptop with
-  a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
-  Software Carpentry's
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  Uczestnicy proszeni są o przyniesienie na warsztaty <strong>własnych laptopów</strong>.
+  Konieczne będzie skonfigurowanie ich przed warsztatami, zgodnie z podanymi poniżej <a href="#setup">instrukcjami</a>.
+  Na warsztatach każdy jest zobowiązany przestrzegać <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>
+  od Software Carpentry. W skrócie: prosimy odnosić się do siebie kulturalnie, uprzejmie i z szacunkiem.
 </p>
 
 <!--
@@ -147,8 +140,8 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   used.
 -->
 <p>
-  <strong>Contact</strong>:
-  Please mail
+  <strong>Kontakt</strong>:
+  Wszelkie pytania prosimy kierować na
   {% if page.contact %}
     <a href='mailto:{{page.contact}}'>{{page.contact}}</a>
   {% else %}
@@ -217,7 +210,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 <p>
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  W trakcie warsztatów będziemy używać tego Etherpada do pisania notatek, komunikacji oraz współdzielenia odnośników czy fragmentów kodu.
 </p>
 {% endif %}
 
